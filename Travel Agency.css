@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: sans-serif; margin: 0 auto;
+}
+.clear{clear: both}
+/*header*/
+#header{
+	background-color: #262262; overflow: auto; 
+}
+#logo{
+	margin:15px 15px;width:25%; float: left;
+}
+#logo img{
+	margin: 0px 0 0 6%; width: 100px;height: auto;
+}
+#menu{
+	width: 60%;padding-right:4%;float: right;font-size: 0.96em;}
+#menu ul{
+	float:right;list-style: none; overflow: hidden; padding: 0px; margin: 40px 0 0;
+}
+#menu ul li {
+	float: left; padding: 0 20px;text-transform: uppercase;}
+#menu ul li a {
+    color: #ffffff;display: block; font-weight:bold;text-decoration: none; 
+}
+#menu ul li.current a,#menu ul li a:hover{
+	color: #f7941e;
+}
+/*banner*/
+#banner{
+	position: relative; background-color: #f8f9fa;margin: 0 auto;padding: 0px; overflow: auto;
+}
+#bannerchu{
+	float: left; width: 40%; padding-top: 10%; padding-left: 2%;
+}
+#bannerhinh{
+	float: right; width: 58%;
+}
+#bannerhinh img{
+	width: 100%;
+}
+.p1{
+	font-weight: bold; color: #006989; font-size: 1.2em; 
+}
+#bannerchu .p2{
+	font-size: 4em; margin: 0; color: #233142;
+}
+#bannerchu h1{
+	font-size: 4em; margin-bottom: 0; margin-top: 5px; color: #233142;
+}
+.p3{
+	color: #a0a1a1; font-size: 1.2em; font-style: normal; margin-top: 25px; margin-bottom: 30px;
+}
+#bannerchu button{
+	background-color: inherit; border: solid 2px #006989; padding: 10px 20px; font-size: 1.2em; color: #006989; font-weight: bold; cursor: pointer; 
+}
+#bannerchu button:hover{
+	color: white;background-color: #006989;
+}
+#services{
+	padding: 8% 10% 7%;
+}
+.col{
+	width: 21%; float: left; padding-left: 2%; padding-right: 2%;
+}
+.circle{
+	width: 75px; 
+    height: 75px;
+    background-color:#EBF1F2;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle i{
+	padding: 23px;
+}
+.col a{
+	text-decoration: none; font-size: 1.4em; font-weight: bold; color: #233142; 
+}
+.col a:hover{
+	color: #f7941e;
+}
+.col a p{margin-bottom: 15px;margin-top: 25px;}
+.noidung{
+	color: #a0a1a1; line-height: 1.8; font-size: 1.1em; margin: 0;
+}
+#gallery{
+	background-color: #f5f5f5; padding: 7% 7% 5% 9%;
+}
+#gallery .line{
+height: 3px; background-color: #f7941e;	width: 55px; float: left;margin-top: 10px; margin-right: 15px;
+}
+#gallery h1{
+	font-size: 2.5em; color: #233142; margin-top: 10px; margin-bottom: 40px;
+}
+#gallery h2{
+	color: white; margin-bottom: 5px; font-size: 1.6em; padding-bottom: 1px;
+}
+#gallery .p3{
+	color: #e7e8e9; margin-bottom: 10px; margin-top: 10px; padding-bottom: 2px;
+}
+#gallery .hinh{
+	width: 30.5%; float: left; padding-right: 2.5%; padding-bottom: 30px;
+}
+#gallery img{
+	width: 100%;
+}#gallery .hinh .block{
+	display: block; position: absolute; top: 75%; left:5%;
+}
+.content-photo-content .line{
+height: 3px; background-color: #f7941e;	width: 55px; float: left;	margin-top: 10px;margin-right: 15px;
+}
+#clip{
+	padding-top: 90px; text-align: center; 
+}
+.content-photo-content{
+	padding: 45px 9%;
+}
+.content-photo-content-left{
+	float: left; width: 56%; padding-top: 20px;
+}
+.content-photo-content-right{
+	text-align: left;
+}
+.content-photo-content h1, .booking h1, #feedback h1{
+	font-size: 2.5em; color: #233142; margin-top: 10px; margin-bottom: 40px;
+}
+.booking{
+	padding: 40px 9%;
+}
+.booking .line{
+	height: 3px; background-color: #f7941e;	width: 55px; float: left;	margin-top: 10px;margin-right: 15px;
+}
+table{
+	width: 33%; float: left;
+}
+.label{
+	font-size: 0.96em; font-weight: bold; color: #233142;
+}
+.booking input[type=text],.booking select, .booking input[type=date]{
+	border: none; background-color: #f5f5f5; padding-top: 14px; padding-bottom: 14px; padding-left: 10px; font-size: 0.96em; color: #a0a1a1; margin-bottom: 15px; width: 90%; padding-right: 7px;
+}
+.booking [type=date]{
+	font-family:  Arial;
+}
+.booking select{
+	width: 94%;
+}
+.booking input[type=date]{
+	padding-top: 13px; padding-bottom: 13px;
+}
+.booking button{
+	border: none; text-align: center; background-color: #006989; color: white; font-weight: bold; width: 94%; padding-top: 14px; padding-bottom: 14px; font-size: 1.05em; cursor: pointer;
+}
+.booking button:hover{
+	background-color: #f7941e;
+}
+#feedback{
+	padding: 40px 9% 100px;
+}
+#feedback .line{height: 3px; background-color: #f7941e;	width: 55px; float: left;	margin-top: 10px;margin-right: 15px;}
+.fb-content{
+	width: 25%; float: left; margin-left: 1%; margin-right: 1%; border: 1px solid #cce1e7; padding: 30px 30px 28px 30px;
+}
+.icon-quote{
+	color: #cce1e7;
+}
+.fb-content img{
+	width: 50px; height: 50px; float: left; padding-right: 20px;
+}
+.fb-content p{
+	color: #a0a1a1; line-height: 1.8; font-size: 1.05em; margin-top: 3px;
+}
+.fb-content h3{
+	font-size: 1.05em; font-weight: bold; color: #233142; margin-bottom: 0px;
+}
+.fb-content .indentity{
+	font-size: 1em; margin-bottom: 0;
+}
+#footer{
+	background-color: #1c1c1c; height: 400px; padding: 50px 15% 20px 15%;
+}
+#footer h4{
+	color: #f8f9fa; 
+}
+#lienket{
+	width: 25%; float: left; padding-right: 5%;
+}
+#logo-1{
+	width: 35%; 
+}
+#logo-1 img{
+	width: 100%;
+}
+#footer p{
+	color: white; line-height: 2; font-size: 0.9em;
+}
+#truycap{
+	width: 15%; float: right; 
+}
+#hotro{
+	width: 15%; float: right;padding-right: 5%;
+}
+#truycap ul, #hotro ul{
+	list-style-type: none; padding-left: 0;
+}
+#truycap li a:link, #hotro li a:link{
+	text-decoration: none; color: #f8f9fa; font-size: 0.8em; line-height: 2.5;
+}
+#thuvienanh{
+	width: 30%; float: right; padding-right: 5%;
+}
+#thuvienanh img{
+	width: 30%; padding-right: 2%; padding-bottom: 2%;
+}
+#copyright{
+	background-color: #181818; height: 50px;
+}
